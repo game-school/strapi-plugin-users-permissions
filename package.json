@@ -23,7 +23,7 @@
     "grant-koa": "5.4.8",
     "immutable": "^3.8.2",
     "jsonwebtoken": "^8.1.0",
-    "koa2-ratelimit": "1.1.2",
+    "koa2-ratelimit": "1.1.3",
     "lodash": "4.17.21",
     "purest": "3.1.0",
     "react": "^16.14.0",
@@ -34,34 +34,16 @@
     "react-router-dom": "^5.0.0",
     "reactstrap": "8.4.1",
     "redux-saga": "^0.16.0",
-    "request": "^2.83.0",
-    "strapi-helper-plugin": "3.6.11",
-    "strapi-utils": "3.6.11",
-    "uuid": "^3.1.0"
+    "request": "^2.83.2",
+    "strapi-helper-plugin": "ssh://git@github.com/game-school/strapi-helper-plugin.git",
+    "strapi-utils": "ssh://git@github.com/game-school/strapi-utils.git",
+    "uuid": "9.0.0"
   },
   "devDependencies": {
-    "koa": "^2.13.1"
-  },
-  "author": {
-    "name": "Strapi team",
-    "email": "hi@strapi.io",
-    "url": "https://strapi.io"
-  },
-  "maintainers": [
-    {
-      "name": "Strapi team",
-      "email": "hi@strapi.io",
-      "url": "https://strapi.io"
-    }
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/strapi/strapi.git"
+    "koa": "^2.14.2"
   },
   "engines": {
-    "node": ">=10.16.0 <=14.x.x",
+    "node": ">=10.16.0 <=18.x.x",
     "npm": ">=6.0.0"
-  },
-  "license": "SEE LICENSE IN LICENSE",
-  "gitHead": "231263a3535658bab1e9492c6aaaed8692d62a53"
+  }
 }
