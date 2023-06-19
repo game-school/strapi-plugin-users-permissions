@@ -37,7 +37,7 @@
     "request": "^2.83.2",
     "strapi-helper-plugin": "ssh://git@github.com/game-school/strapi-helper-plugin.git",
     "strapi-utils": "ssh://git@github.com/game-school/strapi-utils.git",
-    "uuid": "9.0.0"
+    "uuid": "^3.1.0"
   },
   "devDependencies": {
     "koa": "^2.14.2"
